@@ -1,0 +1,83 @@
+/* Proxy Rotator v2 — SB Admin 2 custom overrides */
+
+body {
+    font-size: 14px;
+}
+
+/* Sidebar — dark slate ala SB Admin 2 */
+.sidebar {
+    background-color: #3b4551;
+}
+
+.sidebar .sidebar-nav {
+    background-color: #3b4551;
+}
+
+.sidebar ul li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.sidebar ul li a {
+    color: #c7ced6;
+}
+
+.sidebar ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.06);
+    color: #ffffff;
+}
+
+.sidebar ul li a.active {
+    background-color: #49536b;
+    color: #ffffff;
+}
+
+.sidebar .sidebar-search {
+    padding: 15px;
+}
+
+.sidebar .sidebar-search .form-control {
+    background-color: #2e3540;
+    border-color: #4a5568;
+    color: #e9ecef;
+}
+
+/* Page header */
+.page-header {
+    margin: 20px 0 15px 0;
+    font-size: 24px;
+}
+
+/* Mono font for proxy addresses */
+.mono {
+    font-family: "Courier New", Courier, monospace;
+}
+
+/* Toast */
+#toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1050;
+    background-color: #333;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 4px;
+    display: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+#toast.show {
+    display: block;
+}
+
+#toast.toast-success {
+    background-color: #5cb85c;
+}
+
+#toast.toast-error {
+    background-color: #d9534f;
+}
+
+#toast.toast-info {
+    background-color: #428bca;
+}
